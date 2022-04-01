@@ -107,14 +107,14 @@ VUE_APP_STORAGE_KEY_LOGIN={app local storage key, e.g:ifabula-digital-kreasi}
 VUE_APP_API_ENDPOINT={API Endpoint with /api, e.g: http://localhost:3000/api}
 ```
 
-4. Running API
+4. Running Web App
 
 ```
 serve dev with
-~/backend# npm run serve
+~/frontend# npm run serve
 
 build with
-~/backend# npm run build
+~/frontend# npm run build
 
 ```
 
