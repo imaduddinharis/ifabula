@@ -1,0 +1,75 @@
+:root {
+  --bs-primary: #0C6FB0;
+  --bs-primary-rgb: 12, 111, 176;
+}
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-outline-primary:hover {
+  background-color: var(--bs-dark);
+  border-color: var(--bs-dark);
+}
+.btn-outline-primary {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.card {
+  border: unset;
+}
+.modal-header {
+  border-bottom: unset;
+  border-top: 8px solid var(--bs-primary);
+}
+.modal-footer {
+  border-top: unset;
+}
+.form-control:focus,
+.form-check-input:focus,
+.btn:focus {
+  box-shadow: unset;
+  outline: 0 none;
+}
+.loading-btn-sm {
+  height: 2rem;
+}
+.btn {
+  transition: 0.25s;
+}
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+}
+.form-check-input:checked {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+label.required:after {
+  content: "*";
+  color: var(--bs-primary);
+  padding-left: 0.25rem;
+}
+label.optional:after {
+  content: "(optional)";
+  color: rgba(var(--bs-dark-rgb, 0.1));
+  opacity:0.4;
+  padding-left: 0.25rem;
+}
+.dataTable-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: unset;
+}
