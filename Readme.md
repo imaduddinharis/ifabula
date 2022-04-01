@@ -3,7 +3,8 @@
 ## Framework
 
 **Backend : Express**  
-**Frontend : Vue3**
+**Frontend : Vue3**  
+**Database : MySQL**
 
 ## Dependencies
 
@@ -45,7 +46,9 @@ First, clone this repository
 ~/backend# npm install
 ``` 
 
-2. Create .env files with value
+2. Create Database on your MySQL  
+
+3. Create .env files with value
 
 ```
 NODE_ENV={env to be used in knex setup, e.g: development}
@@ -57,13 +60,13 @@ DBPORT={port mysql, e.g: 3306}
 DBNAME={database name, e.g: ifabula}
 ```
 
-3. Migrate Database with command:
+4. Migrate Database with command:
 
 ```
 ~/backend# npm run migrate-up
 ```
 
-4. Add default user with seeder
+5. Add default user with seeder
 
 ```
 ~/backend# npm run seed-run
@@ -73,7 +76,7 @@ username: user-test
 password: password1234
 ```
 
-5. Running API
+6. Running API
 
 ```
 dev with nodemon
